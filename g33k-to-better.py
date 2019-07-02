@@ -9,14 +9,15 @@ Update the two list variables below under "Begin Editable".
 
 '''
 from plexapi.server import PlexServer
-baseurl = 'http://192.168.1.103:32400'
-token = '<token>'
-PLEX = PlexServer(baseurl, token)
 
 #--- Begin Editable
+baseurl = 'http://192.168.1.103:32400'
+token = '<token>'
 libs = ['TV Shows', 'TV']
 bad_titles = ['g33k']
 #--- End Editable
+
+PLEX = PlexServer(baseurl, token)
 
 sections = PLEX.library.sections()
 for section in sections:
