@@ -5,7 +5,7 @@ This script scans specified plex TV libraries searching for "bad_titles" like "g
 
 It also will replace any TV items that are titled by their season # and/or their episode #, prepending the Series title to it.
 
-I recommend commenting out where it says "episode.edit(**new_title)"  on line 31 and do a dry run to see what is printed in your console first. 
+I recommend commenting out where it says "episode.edit(**new_title)"  on line 35 and do a dry run to see what is printed in your console first. 
 
 Update the two list variables below under "Begin Editable". 
 
